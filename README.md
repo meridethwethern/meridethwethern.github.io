@@ -1,4 +1,5 @@
 #meridethwethern.github.io
-$ git add .
-$ git commit -m "customizing portfolio.html for meridethwethern"
-$ git push
+git init
+git add .
+git remote add origin git@github.com:meridethwethern.github.io/portfolio.html
+git push -u origin master

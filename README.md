@@ -1,5 +1,123 @@
-#meridethwethern.github.io
-git init
-git add .
-git remote add origin git@github.com:meridethwethern/meridethwethern.github.io.git
-git push -u origin master
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+        <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
+          <div class="row column">
+            <br>
+            <img class="thumbnail" src="https://placehold.it/550x350">
+            <h5>Merideth Wethern</h5>
+            <p> I am an accouning student at LSU. I am a Chi Omega. My favorite color is blue.</p>
+          </div>
+        </div>
+
+        <div class="off-canvas-content" data-off-canvas-content>
+          <div class="title-bar hide-for-large">
+            <div class="title-bar-left">
+              <button class="menu-icon" type="button" data-open="my-info"></button>
+              <span class="title-bar-title">Merideth Wethern</span>
+            </div>
+          </div>
+          <div class="callout primary">
+            <div class="row column">
+              <h1>Hello! This is the portfolio of a very witty person.</h1>
+              <p class="lead">GOOD DAY! I am Merideth Wethern and this is my portfolio website.</p>
+            </div>
+          </div>
+          <div class="row small-up-2 medium-up-3 large-up-4">
+            <div class="column">
+              <img class="thumbnail" src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwiKiJ3hqPDfAhVNLK0KHTr_AjIQjRx6BAgBEAU&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmerideth-wethern-836060158&psig=AOvVaw1yPjtfMrSMNErV9phFgeCg&ust=1547659955762872">
+              <h5>My Site</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwik9azvqPDfAhVSHqwKHZPyBEwQjRx6BAgBEAU&url=https%3A%2F%2Fmysocialmate.com%2Ftag%2Fshesprettyaf&psig=AOvVaw1yPjtfMrSMNErV9phFgeCg&ust=1547659955762872">
+              <h5>My Site</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="https://pbs.twimg.com/profile_images/980464504868831232/JM_hOGQN_400x400.jpg">
+              <h5>My Site</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="https://placehold.it/550x550">
+              <h5>My Site</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="https://placehold.it/550x550">
+              <h5>My Site</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="https://placehold.it/550x550">
+              <h5>My Site</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="https://placehold.it/550x550">
+              <h5>My Site</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="https://placehold.it/550x550">
+              <h5>My Site</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="https://placehold.it/550x550">
+              <h5>My Site</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="https://placehold.it/550x550">
+              <h5>My Site</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="https://placehold.it/550x550">
+              <h5>My Site</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="https://placehold.it/550x550">
+              <h5>My Site</h5>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="row">
+            <div class="medium-6 columns">
+              <h3>Contact Me</h3>
+              <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor.</p>
+              <ul class="menu">
+                <li><a href="#">Dribbble</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Yo</a></li>
+              </ul>
+            </div>
+            <div class="medium-6 columns">
+              <label>Name
+                <input type="text" placeholder="Name">
+              </label>
+              <label>Email
+                <input type="text" placeholder="Email">
+              </label>
+              <label>
+                Message
+                <textarea placeholder="holla at a designerd"></textarea>
+              </label>
+              <input type="submit" class="button expanded" value="Submit">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
